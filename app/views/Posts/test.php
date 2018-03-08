@@ -1,1 +1,0 @@
-<h1>Test for Posts</h1>
