@@ -19,7 +19,7 @@ class Router {
         return self::$route;
     }
 
-    public static function matchRoute($url) {       
+    public static function matchRoute($url) {
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#$pattern#i", $url, $matches)) {
                 foreach ($matches as $k => $v) {
@@ -40,6 +40,8 @@ class Router {
     }
 
     public static function dispatch($url) {
+        $url = self::removeQueryString($url);
+        var_dump($url);
         if (self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route['controller'];
             if (class_exists($controller)) {
@@ -65,6 +67,19 @@ class Router {
 
     protected static function lowerCamelCase($name) {
         return lcfirst(self::upperCamelCase($name));
+    }
+
+    protected static function removeQueryString($url) {
+        if ($url) {
+            $params = explode('&', $url, 2);
+            if (strpos($params[0], '=') === FALSE) {
+                return rtrim($params[0], '/');
+            } else {
+                return '';
+            }
+        }
+        debug($url);
+        return $url;
     }
 
 }
