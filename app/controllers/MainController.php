@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-class Main extends App {
+class MainController extends AppController {
 
 //    public $layout = 'main';
     public function indexAction() {
@@ -17,6 +17,10 @@ class Main extends App {
             'black' => 'QARA'
         ];
         $this->set(compact('name', 'hi', 'colors','title'));
+    }
+    public function testAction(){
+        $this->layout = 'main';
+        echo 'TTTTTTTTTTTTTTTTT';
     }
 
 }

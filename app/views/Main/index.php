@@ -2,3 +2,4 @@
 <?= $hi ?>, 
 <?= $name ?> <br>
 <?php debug($colors);  ?>
+<?php echo $colors['white'];  ?>
