@@ -10,6 +10,7 @@ define('APP', dirname(__DIR__) . '/app');
 
 //require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
+debug($_GET);
 
 spl_autoload_register(function ($class) {
     $file = ROOT.'/' .str_replace('\\', '/', $class).'.php';
@@ -17,7 +18,8 @@ spl_autoload_register(function ($class) {
         require_once $file;
     }
 });
-Router::add('^pages/?(?P<action>[a-z-]+)?$', ['controller' => 'Posts']);
+Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)?$', ['controller' => 'Page']);
+Router::add('^page/(?P<alias>[a-z-]+)?$', ['controller' => 'Page', 'action' => 'view']);
 
 // Default routes
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);

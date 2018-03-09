@@ -9,7 +9,6 @@ class Posts extends \vendor\core\base\Controller {
     }
 
     public function testAction() {
-        debug($this->route);        echo '<br>';
         echo 'Posts::test';
     }
 
