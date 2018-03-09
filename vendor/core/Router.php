@@ -19,8 +19,7 @@ class Router {
         return self::$route;
     }
 
-    public static function matchRoute($url) {
-        debug(self::$route);
+    public static function matchRoute($url) {       
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#$pattern#i", $url, $matches)) {
                 foreach ($matches as $k => $v) {
@@ -31,6 +30,7 @@ class Router {
                 if (!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
+                $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return TRUE;
                 ;
@@ -41,9 +41,9 @@ class Router {
 
     public static function dispatch($url) {
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::upperCamelCase(self::$route['controller']);
+            $controller = 'app\controllers\\' . self::$route['controller'];
             if (class_exists($controller)) {
-                $cObj = new $controller;
+                $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
                 if (method_exists($cObj, $action)) {
                     $cObj->$action();
