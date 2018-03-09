@@ -22,7 +22,7 @@
                     
                 </div> -->
 
-        <h1>Hello, World!</h1>
+        <h1>Layout DEFAULT!</h1>
         <?= $content ?>
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/Learn_MVC/bootstrap/js/bootstrap.min.js" ></script>
