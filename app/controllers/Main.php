@@ -9,13 +9,14 @@ class Main extends App {
 //        $this->layout = FALSE;
 //        $this->layout = 'main';
 //        $this->view = 'test';
+        $title = "PAGE Title";
         $name = 'Etibar Kerimov';
         $hi = "Hello";
         $colors = [
             'white' => 'AG',
             'black' => 'QARA'
         ];
-        $this->set(compact('name', 'hi', 'colors'));
+        $this->set(compact('name', 'hi', 'colors','title'));
     }
 
 }

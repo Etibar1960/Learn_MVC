@@ -6,7 +6,7 @@
 
         <link href="/Learn_MVC/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/Learn_MVC/css/main.css" rel="stylesheet">
-        <title>DEFAULT</title>
+        <title>DEFAULT | <?= $title ?></title>
     </head>
     <body>
         <!--        <div class="container">           
