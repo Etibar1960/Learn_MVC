@@ -1,6 +1,7 @@
 <?php
 
 namespace app\controllers;
+use app\models\MainModel;
 
 class MainController extends AppController {
 
@@ -9,18 +10,12 @@ class MainController extends AppController {
 //        $this->layout = FALSE;
 //        $this->layout = 'main';
 //        $this->view = 'test';
+        $model = new MainModel;
+//        $res = $model->query("CREATE TABLE posts SELECT * FROM  ishchi"); 
+        $posts = $model->findAll();
+        debug($posts);
         $title = "PAGE Title";
-        $name = 'Etibar Kerimov';
-        $hi = "Hello";
-        $colors = [
-            'white' => 'AG',
-            'black' => 'QARA'
-        ];
-        $this->set(compact('name', 'hi', 'colors','title'));
-    }
-    public function testAction(){
-        $this->layout = 'main';
-        echo 'TTTTTTTTTTTTTTTTT';
+        $this->set(compact('title'));
     }
 
 }
