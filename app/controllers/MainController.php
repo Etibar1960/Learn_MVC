@@ -13,9 +13,9 @@ class MainController extends AppController {
         $model = new MainModel;
 //        $res = $model->query("CREATE TABLE posts SELECT * FROM  ishchi"); 
         $posts = $model->findAll();
-        debug($posts);
         $title = "PAGE Title";
-        $this->set(compact('title'));
+        $this->set(compact('title','posts'));
+        
     }
 
 }
