@@ -22,7 +22,7 @@
                     
                 </div> -->
 
-        <h1>Layout DEFAULT!</h1>
+        <h1 style="text-align: center">Layout DEFAULT!</h1>
         <?= $content ?>
         <?= debug(vendor\core\Db::$countSQL)?>
         <?= debug(vendor\core\Db::$queries)?>

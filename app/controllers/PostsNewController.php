@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class PostsNewController extends AppController{
+use app\models\MainModel;
+
+class PostsNewController extends AppController {
 
     public function indexAction() {
         echo 'PostsNew::index';

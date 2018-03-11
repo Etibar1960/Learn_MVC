@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\MainModel;
+
 class PostsController extends AppController {
 
     public $layout = 'default';

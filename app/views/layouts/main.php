@@ -22,7 +22,7 @@
                     
                 </div> -->
 
-        <h1>Layout Main</h1>
+        <h1 style="text-align: center">Layout Main</h1>
         <?= $content ?>
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/Learn_MVC/bootstrap/js/bootstrap.min.js" ></script>
