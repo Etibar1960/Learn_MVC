@@ -13,14 +13,14 @@ class MainController extends AppController {
 //        $this->view = 'test';
         $model = new MainModel;
 //        $res = $model->query("CREATE TABLE posts SELECT * FROM  ishchi"); 
-        $posts = $model->findAll();
+//        $posts = $model->findAll();
 //        $post = $model->findOne(2);
 //        $data = $model->findBySql("SELECT * FROM {$model->table} WHERE vezife LIKE  ?", ['%müavin%']);
 //        $data = $model->findLike('müavin','vezife');
-        $fields5 = R::inspect('book');
-        debug($fields5);
+        $posts = \R::findAll('posts');
+        $menu = \R::findAll('category');
         $title = "PAGE Title";
-        $this->set(compact('title', 'posts'));
+        $this->set(compact('title', 'posts','menu'));
     }
 
 }

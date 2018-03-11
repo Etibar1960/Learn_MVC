@@ -12,9 +12,9 @@ class Db {
     protected function __construct() {
         $db = require ROOT . '/config/config_db.php';
         require LIBS . '/rb.php';
-        R::setup($db['dsn'], $db['user'], $db['pass']);
-        R::fancyDebug(TRUE);
-        R::fancyDebug();
+        \R::setup($db['dsn'], $db['user'], $db['pass']);
+        \R::freeze(TRUE);
+//        \R::fancyDebug(TRUE);
 
 //        $options = [
 //            \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
