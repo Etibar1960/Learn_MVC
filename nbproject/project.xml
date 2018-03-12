@@ -5,5 +5,11 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>Learn_MVC</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>pcon</word>
+            <word>php</word>
+            <word>phph</word>
+            <word>prs</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>

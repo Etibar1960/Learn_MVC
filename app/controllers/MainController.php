@@ -18,9 +18,13 @@ class MainController extends AppController {
 //        $data = $model->findBySql("SELECT * FROM {$model->table} WHERE vezife LIKE  ?", ['%müavin%']);
 //        $data = $model->findLike('müavin','vezife');
         $posts = \R::findAll('posts');
-        $menu = \R::findAll('category');
+        $menu = $this->menu;
         $title = "PAGE Title";
         $this->set(compact('title', 'posts','menu'));
     }
 
+    
+    public function testAction(){
+        $this->layout = 'test';
+    }
 }

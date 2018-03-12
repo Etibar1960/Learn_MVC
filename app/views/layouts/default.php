@@ -9,23 +9,19 @@
         <title>DEFAULT | <?= $title ?></title>
     </head>
     <body>
-        <!--        <div class="container">           
-                    <ul class="nav nav-pills">
-                        <li><a href="/azmetyayim.az"> Home</a></li>
-                        <li><a href="page/about"> About</a></li>
-                        <li><a href="/azmetyayim.az/admin"> Admin</a></li>
-                        <li><a href="/azmetyayim.az/user/signup"> Signup</a></li>
-                        <li><a href="/azmetyayim.az/user/login"> Login</a></li>
-                        <li><a href="/azmetyayim.az/user/logout"> Logout</a></li>
-                    </ul>
-        
-                    
-                </div> -->
+        <div class="container">  
+            <?php if (!empty($menu)): ?>            
+                <ul class="nav nav-pills">
+                      <li><a href="page/about"> About</a></li>
+                    <?php foreach ($menu as $item): ?>
+                        <li><a href="category/<?= $item['id'] ?>"> <?= $item['title'] ?> </a></li>
+                    <?php endforeach; ?>  
+                </ul>
+            <?php endif; ?>
+        </div> 
 
         <h1 style="text-align: center">Layout DEFAULT!</h1>
         <?= $content ?>
-        <?= debug(vend\core\Db::$countSQL)?>
-        <?= debug(vend\core\Db::$queries)?>
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/Learn_MVC/bootstrap/js/bootstrap.min.js" ></script>
 
