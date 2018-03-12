@@ -1,16 +1,16 @@
 <?php
 
-use vendor\core\Router;
+use vend\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
-define('CORE', dirname(__DIR__) . '/vendor/core');
-define('LIBS', dirname(__DIR__) . '/vendor/libs');
+define('CORE', dirname(__DIR__) . '/vend/core');
+define('LIBS', dirname(__DIR__) . '/vend/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('LAYOUT', 'default');
 
-require '../vendor/libs/functions.php';
+require '../vend/libs/functions.php';
 
 spl_autoload_register(function ($class) {
     $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';

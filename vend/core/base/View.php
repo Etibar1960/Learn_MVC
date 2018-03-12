@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\core\base;
+namespace vend\core\base;
 
 class View {
 

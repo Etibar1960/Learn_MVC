@@ -24,8 +24,8 @@
 
         <h1 style="text-align: center">Layout DEFAULT!</h1>
         <?= $content ?>
-        <?= debug(vendor\core\Db::$countSQL)?>
-        <?= debug(vendor\core\Db::$queries)?>
+        <?= debug(vend\core\Db::$countSQL)?>
+        <?= debug(vend\core\Db::$queries)?>
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/Learn_MVC/bootstrap/js/bootstrap.min.js" ></script>
 

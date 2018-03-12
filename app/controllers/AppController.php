@@ -3,6 +3,6 @@
 
 namespace app\controllers;
 
-class AppController extends \vendor\core\base\Controller {
+class AppController extends \vend\core\base\Controller {
     
 }
