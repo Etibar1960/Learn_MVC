@@ -6,7 +6,9 @@
 
         <link href="/Learn_MVC/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/Learn_MVC/css/main.css" rel="stylesheet">
-        <title>DEFAULT | <?= $title ?></title>
+        <title><?= $meta['title'] ?></title>
+        <meta name="description" content="<?= $meta['desc']?>>">
+        <meta name="keywords" content="<?= $meta['keywords']?>>">
     </head>
     <body>
         <div class="container">  
@@ -22,6 +24,7 @@
 
         <h1 style="text-align: center">Layout DEFAULT!</h1>
         <?= $content ?>
+        
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/Learn_MVC/bootstrap/js/bootstrap.min.js" ></script>
 

@@ -18,13 +18,17 @@ class MainController extends AppController {
 //        $data = $model->findBySql("SELECT * FROM {$model->table} WHERE vezife LIKE  ?", ['%müavin%']);
 //        $data = $model->findLike('müavin','vezife');
         $posts = \R::findAll('posts');
+        $post = \R::findOne('posts','id = 2');
         $menu = $this->menu;
         $title = "PAGE Title";
-        $this->set(compact('title', 'posts','menu'));
+        $this->setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
+//        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
+        $meta = $this->meta;
+        $this->set(compact('title', 'posts', 'menu', 'meta'));
     }
 
-    
-    public function testAction(){
+    public function testAction() {
         $this->layout = 'test';
     }
+
 }
