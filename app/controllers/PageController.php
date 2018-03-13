@@ -10,7 +10,10 @@ class PageController extends AppController {
 
         $menu = $this->menu;
         $title = "Sehife";
-        $this->set(compact('title', 'menu'));
+        $this->setMeta('About', 'Səhifə about', 'Açar sözləri');
+//        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
+        $meta = $this->meta;
+        $this->set(compact('title', 'menu','meta'));
     }
 
 }

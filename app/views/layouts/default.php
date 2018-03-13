@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <title><?= $meta['title'] ?></title>
+        <meta name="description" content="<?= $meta['desc'] ?>">
+        <meta name="keywords" content="<?= $meta['keywords'] ?>">
         <link href="/Learn_MVC/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/Learn_MVC/css/main.css" rel="stylesheet">
-        <title><?= $meta['title'] ?></title>
-        <meta name="description" content="<?= $meta['desc']?>>">
-        <meta name="keywords" content="<?= $meta['keywords']?>>">
+       
     </head>
     <body>
         <div class="container">  
