@@ -8,6 +8,7 @@ define('ROOT', dirname(__DIR__));
 define('CORE', dirname(__DIR__) . '/vend/core');
 define('LIBS', dirname(__DIR__) . '/vend/libs');
 define('APP', dirname(__DIR__) . '/app');
+define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 
 require '../vend/libs/functions.php';
@@ -18,6 +19,8 @@ spl_autoload_register(function ($class) {
         require_once $file;
     }
 });
+
+new vend\core\App;
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)?$', ['controller' => 'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)?$', ['controller' => 'Page', 'action' => 'view']);
 

@@ -3,21 +3,20 @@
 namespace app\controllers;
 
 use app\models\MainModel;
+use vend\core\App;
 
 class MainController extends AppController {
 
 //    public $layout = 'main';
     public function indexAction() {
-//        $this->layout = FALSE;
-//        $this->layout = 'main';
-//        $this->view = 'test';
+//        App::$app->getList();
+//        \R::fancyDebug(TRUE);
         $model = new MainModel;
-//        $res = $model->query("CREATE TABLE posts SELECT * FROM  ishchi"); 
-//        $posts = $model->findAll();
-//        $post = $model->findOne(2);
-//        $data = $model->findBySql("SELECT * FROM {$model->table} WHERE vezife LIKE  ?", ['%müavin%']);
-//        $data = $model->findLike('müavin','vezife');
-        $posts = \R::findAll('posts');
+        $posts = App::$app->cache->get('posts');
+        if (!$posts) {
+            $posts = \R::findAll('posts');
+            App::$app->cache->set('posts', $posts, 3600 * 24);
+        }
         $post = \R::findOne('posts', 'id = 2');
         $menu = $this->menu;
         $title = "PAGE Title";
@@ -25,10 +24,12 @@ class MainController extends AppController {
 //        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
         $meta = $this->meta;
         $this->set(compact('title', 'posts', 'menu', 'meta'));
+        $this->layout = 'test';
+//        $app->test->der();
     }
 
     public function testAction() {
-        $this->layout = 'test';
+        
     }
 
 }
