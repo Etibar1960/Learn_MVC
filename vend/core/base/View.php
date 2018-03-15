@@ -4,6 +4,11 @@ namespace vend\core\base;
 
 class View {
 
+    public $rooute = [];
+    public $view;
+    public $layout;
+    public $scripts = [];
+
     public function __construct($route, $layout = '', $view = '') {
         $this->route = $route;
         if ($layout === FALSE) {
@@ -15,7 +20,8 @@ class View {
     }
 
     public function render($vars) {
-       if(is_array($vars)) extract($vars);
+        if (is_array($vars))
+            extract($vars);
         $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
         ob_start();
         if (is_file($file_view)) {
@@ -27,11 +33,25 @@ class View {
         if (FALSE !== $this->layout) {
             $file_layout = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($file_layout)) {
+                $content = $this->getScript($content);
+                $scripts = [];
+                if (!empty($this->scripts[0])) {
+                    $scripts = $this->scripts[0];
+                }
                 require $file_layout;
             } else {
                 echo "<p>Şablon : <b>$file_layout</b> tapılmadı...</p>";
             }
         }
+    }
+
+    public function getScript($content) {
+        $pattern = "#<script.*?>.*?</script>#si";
+        preg_match_all($pattern, $content, $this->scripts);
+        if (!empty($this->scripts)) {
+            $content = preg_replace($pattern, '', $content);
+        }
+        return $content;
     }
 
 }

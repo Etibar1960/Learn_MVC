@@ -10,7 +10,7 @@
         <?php endforeach; ?>    
     <?php endif; ?>
 </div>
-<script src="/js/test.js"></script>
+<script src="/Learn_MVC/js/test.js"></script>
 <script>
     $('#send').click(function () {
         $.ajax({
