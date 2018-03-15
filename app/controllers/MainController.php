@@ -12,11 +12,11 @@ class MainController extends AppController {
 //        App::$app->getList();
 //        \R::fancyDebug(TRUE);
         $model = new MainModel;
-        $posts = App::$app->cache->get('posts');
-        if (!$posts) {
-            $posts = \R::findAll('posts');
-            App::$app->cache->set('posts', $posts, 3600 * 24);
-        }
+//        $posts = App::$app->cache->get('posts');
+//        if (!$posts) {
+        $posts = \R::findAll('posts');
+//            App::$app->cache->set('posts', $posts, 3600 * 24);
+//        }
         $post = \R::findOne('posts', 'id = 2');
         $menu = $this->menu;
         $title = "PAGE Title";
@@ -24,12 +24,17 @@ class MainController extends AppController {
 //        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
         $meta = $this->meta;
         $this->set(compact('title', 'posts', 'menu', 'meta'));
-        $this->layout = 'test';
+//        $this->layout = 'test';
 //        $app->test->der();
     }
 
     public function testAction() {
-        
+        if ($this->isAjax()) {
+            echo '111';
+            die;
+        }
+        echo 222;
+        $this->layout = 'test';
     }
 
 }

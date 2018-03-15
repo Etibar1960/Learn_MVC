@@ -6,12 +6,12 @@
 
         <link href="/Learn_MVC/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/Learn_MVC/css/main.css" rel="stylesheet">
-        <title>DEFAULT | <?= $title ?></title>
+        <title>DEFAULT></title>
     </head>
     <body>
         <div class="container"> 
             Burada menu yoxdur
-            <h1 style="text-align: center">Layout DEFAULT!</h1>
+            <h1 style="text-align: center">Layout TEST!</h1>
             <?= $content ?>
         </div> 
         <script src="/Learn_MVC/bootstrap/js/jquery-3.2.1.min.js"></script>
