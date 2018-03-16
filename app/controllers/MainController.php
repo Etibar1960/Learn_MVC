@@ -22,7 +22,8 @@ class MainController extends AppController {
         $title = "PAGE Title";
         $this->setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
 //        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
-        $meta = $this->meta;
+//        $meta = $this->meta;
+        \vend\core\base\View::setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
         $this->set(compact('title', 'posts', 'menu', 'meta'));
 //        $this->layout = 'test';
 //        $app->test->der();

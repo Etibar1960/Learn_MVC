@@ -4,8 +4,10 @@ namespace vend\core;
 
 class Db {
 
+    use TSingletone;
+
     protected $pdo;
-    protected static $instance;
+//    protected static $instance;
     public static $countSQL;
     public static $queries = [];
 
@@ -15,7 +17,6 @@ class Db {
         \R::setup($db['dsn'], $db['user'], $db['pass']);
         \R::freeze(TRUE);
 //        \R::fancyDebug(TRUE);
-
 //        $options = [
 //            \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
 //            \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC
