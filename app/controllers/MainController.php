@@ -32,7 +32,7 @@ class MainController extends AppController {
         if ($this->isAjax()) {
             $model = new MainModel();
             $post = \R::findOne('post', "id = {$_POST['id']}");
-            $this->loadView('test', compact('post'));
+            $this->loadView('_test', compact('post'));
             die;
         }
         echo 222;

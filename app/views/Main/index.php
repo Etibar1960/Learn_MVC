@@ -1,5 +1,6 @@
 <div class="container">
     <button class="btn btn-default" id="send">Button</button>
+    <div id="div1"></div>
     <br><br>
     <?php if (!empty($posts)): ?>
         <?php foreach ($posts as $post): ?>
