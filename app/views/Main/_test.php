@@ -1,3 +1,2 @@
-<code><?= __FILE__ ?></code>
-<h1><?= $post['title'] ?></h1>
+<h3><?= $post['description'] ?></h3>
 <div><?= $post['text'] ?></div>

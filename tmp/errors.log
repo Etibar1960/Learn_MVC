@@ -1,0 +1,28 @@
+[2018-03-17 19:55:28] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 19:56:14] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:04:48] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:04:50] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:05:03] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+------------------------------------------------------------
+[2018-03-17 20:05:15] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+------------------------------------------------------------
+[2018-03-17 20:05:19] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:05:32] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:05:41] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+------------------------------------------------------------
+[2018-03-17 20:05:47] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+------------------------------------------------------------
+[2018-03-17 20:09:04] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+------------------------------------------------------------
+[2018-03-17 20:09:09] Sehvin kodu: E_USER_ERROR | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:17
+------------------------------------------------------------
+[2018-03-17 21:19:12] Sehvin kodu: require(C:\xampp\htdocs\Learn_MVC\public/my_menu.php): failed to open stream: No such file or directory | Fayl: C:\xampp\htdocs\Learn_MVC\vend\widgets\menu\Menu.php Setir:70
+------------------------------------------------------------
+[2018-03-17 21:19:12] Sehvin kodu: require(): Failed opening required 'C:\xampp\htdocs\Learn_MVC\public/my_menu.php' (include_path='C:\xampp\php\PEAR') | Fayl: C:\xampp\htdocs\Learn_MVC\vend\widgets\menu\Menu.php Setir:70
+------------------------------------------------------------

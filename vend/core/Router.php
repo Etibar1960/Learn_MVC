@@ -50,14 +50,17 @@ class Router {
                     $cObj->$action();
                     $cObj->getView();
                 } else {
-                    echo "Metod <b>$controller::$action</b> tapılmadı...";
+//                    echo "Metod <b>$controller::$action</b> tapılmadı...";
+                    throw new \Exception("Metod <b>$controller::$action</b> tapılmadı...",404);
                 }
             } else {
-                echo "Controller <b>$controller</b> tapılmadı...";
+//                echo "Controller <b>$controller</b> tapılmadı...";
+                 throw new \Exception("Controller <b>$controller</b> tapılmadı...",404);
             }
         } else {
-            http_response_code(404);
-            include '404.html';
+//            http_response_code(404);
+//            include '404.html';
+             throw new \Exception("Səhifə tapılmadı...",404);
         }
     }
 
