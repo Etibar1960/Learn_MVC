@@ -23,12 +23,13 @@ class View {
     public function render($vars) {
         if (is_array($vars))
             extract($vars);
-        $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
+        $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
         ob_start();
         if (is_file($file_view)) {
             require $file_view;
         } else {
-            echo "<p>View : <b>$file_view</b> tapılmadı...</p>";
+//            echo "<p>View : <b>$file_view</b> tapılmadı...</p>";
+            throw new \Exception("<p>View : <b>$file_view</b> tapılmadı...</p>",400);
         }
         $content = ob_get_clean();
         if (FALSE !== $this->layout) {
@@ -41,7 +42,8 @@ class View {
                 }
                 require $file_layout;
             } else {
-                echo "<p>Şablon : <b>$file_layout</b> tapılmadı...</p>";
+//                echo "<p>Şablon : <b>$file_layout</b> tapılmadı...</p>";
+                 throw new \Exception("<p>Şablon : <b>$file_layout</b> tapılmadı...</p>",400);
             }
         }
     }

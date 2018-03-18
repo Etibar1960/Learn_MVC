@@ -22,22 +22,24 @@ class Router {
     public static function matchRoute($url) {
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#$pattern#i", $url, $matches)) {
-               
+
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         $route[$k] = $v;
                     }
                 }
-                 debug($route);
                 if (!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
 //                Prefix for admin controller
-                
+                if (!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                } else {
+                    $route['prefix'] .= '\\';
+                }
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return TRUE;
-                ;
             }
         }
         return FALSE;
@@ -46,7 +48,7 @@ class Router {
     public static function dispatch($url) {
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route['controller'].'Controller';
+            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
@@ -55,16 +57,16 @@ class Router {
                     $cObj->getView();
                 } else {
 //                    echo "Metod <b>$controller::$action</b> tapılmadı...";
-                    throw new \Exception("Metod <b>$controller::$action</b> tapılmadı...",404);
+                    throw new \Exception("Metod <b>$controller::$action</b> tapılmadı...", 404);
                 }
             } else {
 //                echo "Controller <b>$controller</b> tapılmadı...";
-                 throw new \Exception("Controller <b>$controller</b> tapılmadı...",404);
+                throw new \Exception("Controller <b>$controller</b> tapılmadı...", 404);
             }
         } else {
 //            http_response_code(404);
 //            include '404.html';
-             throw new \Exception("Səhifə tapılmadı...",404);
+            throw new \Exception("Səhifə tapılmadı...", 404);
         }
     }
 
