@@ -3,7 +3,7 @@
 use vend\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
-define("DEBUG",0);
+define("DEBUG",1);
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
 define('CORE', dirname(__DIR__) . '/vend/core');
@@ -26,6 +26,10 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)?$', ['controller' => '
 Router::add('^page/(?P<alias>[a-z-]+)?$', ['controller' => 'Page', 'action' => 'view']);
 
 // Default routes
+Router::add('^admin$', ['controller' => 'User', 'action' => 'index', 'prefix' =>'admin']);
+Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' => 'admin']);
+
+
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 

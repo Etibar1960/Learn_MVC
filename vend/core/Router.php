@@ -22,14 +22,18 @@ class Router {
     public static function matchRoute($url) {
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#$pattern#i", $url, $matches)) {
+               
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         $route[$k] = $v;
                     }
                 }
+                 debug($route);
                 if (!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
+//                Prefix for admin controller
+                
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return TRUE;
