@@ -88,3 +88,11 @@
 ------------------------------------------------------------
 [2018-03-18 19:27:32] Sehvin kodu: <p>View : <b>C:\xampp\htdocs\Learn_MVC/app/views/admin\User/index.php</b> tapılmadı...</p> | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\base\View.php Setir:32
 ------------------------------------------------------------
+[2018-03-18 19:37:40] Sehvin kodu: Controller <b>app\controllers\admin\IndexController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+------------------------------------------------------------
+[2018-03-18 20:18:02] Sehvin kodu: syntax error, unexpected 'denied' (T_STRING), expecting ')' | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\admin\AppController.php Setir:12
+------------------------------------------------------------
+[2018-03-18 20:21:29] Sehvin kodu: Controller <b>app\controllers\SadminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+------------------------------------------------------------
+[2018-03-18 20:21:39] Sehvin kodu: Controller <b>app\controllers\DminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+------------------------------------------------------------
