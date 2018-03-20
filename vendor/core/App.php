@@ -1,9 +1,9 @@
 <?php
 
-namespace vend\core;
+namespace vendor\core;
 
-use vend\core\Registry;
-use vend\core\ErrorHandler;
+use vendor\core\Registry;
+use vendor\core\ErrorHandler;
 
 class App {
 

@@ -2,7 +2,7 @@
 
 namespace app\controllers\admin;
 
-use vend\core\base\View;
+use vendor\core\base\View;
 
 class UserController extends AppController {
     public $layout = 'default';

@@ -1,18 +1,18 @@
 <?php
 
-use vend\core\Router;
+use vendor\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 define("DEBUG",1);
 define('WWW', __DIR__);
 define('ROOT', dirname(__DIR__));
-define('CORE', dirname(__DIR__) . '/vend/core');
-define('LIBS', dirname(__DIR__) . '/vend/libs');
+define('CORE', dirname(__DIR__) . '/vendor/core');
+define('LIBS', dirname(__DIR__) . '/vendor/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 
-require '../vend/libs/functions.php';
+require '../vendor/libs/functions.php';
 
 spl_autoload_register(function ($class) {
     $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
@@ -21,7 +21,7 @@ spl_autoload_register(function ($class) {
     }
 });
 
-new vend\core\App;
+new vendor\core\App;
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)?$', ['controller' => 'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)?$', ['controller' => 'Page', 'action' => 'view']);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace vend\core;
+namespace vendor\core;
 
 class Db {
 

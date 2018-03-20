@@ -2,7 +2,7 @@
     <div id="answer"></div>
     <button class="btn btn-default" id="send">Button</button>
     <?php
-    new vend\widgets\menu\Menu([
+    new vendor\widgets\menu\Menu([
         'tpl' => WWW . '/menu/select.php',
         'container' => 'select',
         'class' => 'my-select',
@@ -12,7 +12,7 @@
     ]);
     ?>
     <?php
-    new vend\widgets\menu\Menu([
+    new vendor\widgets\menu\Menu([
         'tpl' => WWW . '/menu/my_menu.php',
         'container' => 'ul',
         'class' => 'my_menu',
@@ -32,7 +32,7 @@
     <?php endforeach; ?>    
 <?php endif; ?>
 </div>
-<script src="/Learn_MVC/js/test.js"></script>
+<script src="/learn_mvc/js/test.js"></script>
 <script>
     $('#send').click(function () {
         $.ajax({

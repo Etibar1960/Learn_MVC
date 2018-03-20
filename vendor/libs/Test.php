@@ -1,6 +1,6 @@
 <?php
 
-namespace vend\libs;
+namespace vendor\libs;
 
 class Test {
     //put your code here

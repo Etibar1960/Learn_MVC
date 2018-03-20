@@ -1,8 +1,8 @@
 <?php
 
-namespace vend\widgets\menu;
+namespace vendor\widgets\menu;
 
-use vend\libs\Cache;
+use vendor\libs\Cache;
 
 class Menu {
 

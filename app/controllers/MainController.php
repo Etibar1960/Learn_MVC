@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use app\models\MainModel;
-use vend\core\App;
+use vendor\core\App;
 
 class MainController extends AppController {
 
@@ -25,7 +25,7 @@ class MainController extends AppController {
         $this->setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
 //        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
 //        $meta = $this->meta;
-        \vend\core\base\View::setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
+        \vendor\core\base\View::setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
         $this->set(compact('title', 'posts', 'menu', 'meta'));
 //        $this->layout = 'test';
 //        $app->test->der();

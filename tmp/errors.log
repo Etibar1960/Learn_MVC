@@ -1,98 +1,100 @@
-[2018-03-17 19:55:28] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 19:55:28] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 19:56:14] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 19:56:14] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:04:48] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 20:04:48] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:04:50] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 20:04:50] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:05:03] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-17 20:05:03] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-17 20:05:15] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-17 20:05:15] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-17 20:05:19] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 20:05:19] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:05:32] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 20:05:32] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:05:41] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:12
+[2018-03-17 20:05:41] Sehvin kodu: Undefined variable: tstt | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:12
 ------------------------------------------------------------
-[2018-03-17 20:05:47] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-17 20:05:47] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-17 20:09:04] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-17 20:09:04] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-17 20:09:09] Sehvin kodu: E_USER_ERROR | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:17
+[2018-03-17 20:09:09] Sehvin kodu: E_USER_ERROR | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\MainController.php Setir:17
 ------------------------------------------------------------
-[2018-03-17 21:19:12] Sehvin kodu: require(C:\xampp\htdocs\Learn_MVC\public/my_menu.php): failed to open stream: No such file or directory | Fayl: C:\xampp\htdocs\Learn_MVC\vend\widgets\menu\Menu.php Setir:70
+[2018-03-17 21:19:12] Sehvin kodu: require(C:\xampp\htdocs\learn_mvc\public/my_menu.php): failed to open stream: No such file or directory | Fayl: C:\xampp\htdocs\learn_mvc\vendor\widgets\menu\Menu.php Setir:70
 ------------------------------------------------------------
-[2018-03-17 21:19:12] Sehvin kodu: require(): Failed opening required 'C:\xampp\htdocs\Learn_MVC\public/my_menu.php' (include_path='C:\xampp\php\PEAR') | Fayl: C:\xampp\htdocs\Learn_MVC\vend\widgets\menu\Menu.php Setir:70
+[2018-03-17 21:19:12] Sehvin kodu: require(): Failed opening required 'C:\xampp\htdocs\learn_mvc\public/my_menu.php' (include_path='C:\xampp\php\PEAR') | Fayl: C:\xampp\htdocs\learn_mvc\vendor\widgets\menu\Menu.php Setir:70
 ------------------------------------------------------------
-[2018-03-18 12:29:12] Sehvin kodu: Controller <b>app\controllers\AdminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 12:29:12] Sehvin kodu: Controller <b>app\controllers\AdminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 12:33:26] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-18 12:33:26] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-18 12:34:10] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-18 12:34:10] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-18 13:47:31] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:63
+[2018-03-18 13:47:31] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:63
 ------------------------------------------------------------
-[2018-03-18 14:01:24] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 14:01:24] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 14:02:08] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 14:02:08] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 14:02:21] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 14:02:21] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 14:02:34] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 14:02:34] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 14:02:36] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:58
+[2018-03-18 14:02:36] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:58
 ------------------------------------------------------------
-[2018-03-18 14:05:30] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:59
+[2018-03-18 14:05:30] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:59
 ------------------------------------------------------------
-[2018-03-18 14:09:17] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 14:09:17] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 14:10:00] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 14:10:00] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 14:10:54] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 14:10:54] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 14:11:29] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 14:11:29] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 18:40:56] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 18:40:56] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 18:41:20] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 18:41:20] Sehvin kodu: Controller <b>app\controllers\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 18:41:31] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 18:41:31] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 18:41:49] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:67
+[2018-03-18 18:41:49] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:67
 ------------------------------------------------------------
-[2018-03-18 18:41:58] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:67
+[2018-03-18 18:41:58] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:67
 ------------------------------------------------------------
-[2018-03-18 18:42:11] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:67
+[2018-03-18 18:42:11] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:67
 ------------------------------------------------------------
-[2018-03-18 18:42:25] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:62
+[2018-03-18 18:42:25] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:62
 ------------------------------------------------------------
-[2018-03-18 18:47:26] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:65
+[2018-03-18 18:47:26] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:65
 ------------------------------------------------------------
-[2018-03-18 18:47:30] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:65
+[2018-03-18 18:47:30] Sehvin kodu: Controller <b>app\controllers\UserController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:65
 ------------------------------------------------------------
-[2018-03-18 18:50:57] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:65
+[2018-03-18 18:50:57] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:65
 ------------------------------------------------------------
-[2018-03-18 18:51:00] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:65
+[2018-03-18 18:51:00] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:65
 ------------------------------------------------------------
-[2018-03-18 18:52:00] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:65
+[2018-03-18 18:52:00] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:65
 ------------------------------------------------------------
-[2018-03-18 18:52:31] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+[2018-03-18 18:52:31] Sehvin kodu: Controller <b>app\controllers\admin\TestController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:64
 ------------------------------------------------------------
-[2018-03-18 19:08:57] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:69
+[2018-03-18 19:08:57] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:69
 ------------------------------------------------------------
-[2018-03-18 19:10:56] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:69
+[2018-03-18 19:10:56] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:69
 ------------------------------------------------------------
-[2018-03-18 19:20:34] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\base\View.php Setir:26
+[2018-03-18 19:20:34] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\base\View.php Setir:26
 ------------------------------------------------------------
-[2018-03-18 19:27:32] Sehvin kodu: <p>View : <b>C:\xampp\htdocs\Learn_MVC/app/views/admin\User/index.php</b> tapılmadı...</p> | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\base\View.php Setir:32
+[2018-03-18 19:27:32] Sehvin kodu: <p>View : <b>C:\xampp\htdocs\learn_mvc/app/views/admin\User/index.php</b> tapılmadı...</p> | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\base\View.php Setir:32
 ------------------------------------------------------------
-[2018-03-18 19:37:40] Sehvin kodu: Controller <b>app\controllers\admin\IndexController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+[2018-03-18 19:37:40] Sehvin kodu: Controller <b>app\controllers\admin\IndexController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:64
 ------------------------------------------------------------
-[2018-03-18 20:18:02] Sehvin kodu: syntax error, unexpected 'denied' (T_STRING), expecting ')' | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\admin\AppController.php Setir:12
+[2018-03-18 20:18:02] Sehvin kodu: syntax error, unexpected 'denied' (T_STRING), expecting ')' | Fayl: C:\xampp\htdocs\learn_mvc\app\controllers\admin\AppController.php Setir:12
 ------------------------------------------------------------
-[2018-03-18 20:21:29] Sehvin kodu: Controller <b>app\controllers\SadminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+[2018-03-18 20:21:29] Sehvin kodu: Controller <b>app\controllers\SadminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:64
 ------------------------------------------------------------
-[2018-03-18 20:21:39] Sehvin kodu: Controller <b>app\controllers\DminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\Learn_MVC\vend\core\Router.php Setir:64
+[2018-03-18 20:21:39] Sehvin kodu: Controller <b>app\controllers\DminController</b> tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:64
+------------------------------------------------------------
+[2018-03-20 11:04:05] Sehvin kodu: Səhifə tapılmadı... | Fayl: C:\xampp\htdocs\learn_mvc\vendor\core\Router.php Setir:69
 ------------------------------------------------------------
