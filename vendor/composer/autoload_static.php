@@ -15,6 +15,15 @@ class ComposerStaticInit26b44e5b8f9a552a5ccdbc513a96d298
         array (
             'app\\' => 4,
         ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +34,18 @@ class ComposerStaticInit26b44e5b8f9a552a5ccdbc513a96d298
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
     );
 

@@ -10,14 +10,11 @@
     </head>
     <body>
         <div class="container">  
-            <?php if (!empty($menu)): ?>            
-                <ul class="nav nav-pills">
-                    <li><a href="page/about"> About</a></li>
-                    <?php foreach ($menu as $item): ?>
-                        <li><a href="category/<?= $item['id'] ?>"> <?= $item['title'] ?> </a></li>
-                    <?php endforeach; ?>  
-                </ul>
-            <?php endif; ?>
+            <ul class="nav nav-pills">
+                <li><a href="/learn_mvc/"> Home</a></li>
+                <li><a href="page/about"> About</a></li>
+                <li><a href="/learn_mvc/admin"> Admin</a></li>
+            </ul>
         </div> 
 
         <h1 style="text-align: center">Layout DEFAULT!</h1>

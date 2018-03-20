@@ -5,12 +5,26 @@ namespace app\controllers;
 use app\models\MainModel;
 use learn_mvc\core\App;
 use learn_mvc\core\base\View;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 
 
 class MainController extends AppController {
 
 //    public $layout = 'main';
     public function indexAction() {
+// create a log channel
+        $log = new Logger('name');
+        $log->pushHandler(new StreamHandler(ROOT . '/tmp/your.log', Logger::WARNING));
+
+// add records to the log
+        $log->warning('Foo');
+        $log->error('Bar');
+        
+        $mailer = new \PHPMailer\PHPMailer\PHPMailer();
+//        var_dump($mailer);
+
+
 //        echo $tstt;
 //        App::$app->getList();
 //        \R::fancyDebug(TRUE);

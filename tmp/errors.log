@@ -1,2 +1,6 @@
-[2018-03-20 15:52:58] Sehvin kodu: Class 'vendor\core\base\Controller' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\AppController.php Setir:5
+[2018-03-20 22:49:57] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:23
+------------------------------------------------------------
+[2018-03-20 22:50:29] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:25
+------------------------------------------------------------
+[2018-03-20 22:50:32] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:25
 ------------------------------------------------------------
