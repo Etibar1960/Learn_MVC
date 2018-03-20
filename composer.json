@@ -1,0 +1,10 @@
+{
+    "name": "learn_mvc/learn_mvc",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "learn_mvc\\": "vendor/learn_mvc",
+            "app\\": "app"
+        }
+    }
+}
