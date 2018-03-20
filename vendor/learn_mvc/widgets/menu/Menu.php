@@ -1,8 +1,8 @@
 <?php
 
-namespace vendor\widgets\menu;
+namespace learn_mvc\widgets\menu;
 
-use vendor\libs\Cache;
+use learn_mvc\libs\Cache;
 
 class Menu {
 

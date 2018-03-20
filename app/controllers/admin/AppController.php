@@ -2,7 +2,7 @@
 
 namespace app\controllers\admin;
 
-use vendor\core\base\Controller;
+use learn_mvc\core\base\Controller;
 
 class AppController extends Controller {
     public $layout = 'admin';

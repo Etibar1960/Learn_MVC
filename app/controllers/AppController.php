@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-class AppController extends \vendor\core\base\Controller {
+class AppController extends \learn_mvc\core\base\Controller {
 
     public $menu;
     public $meta = [];

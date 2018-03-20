@@ -2,7 +2,7 @@
     <div id="answer"></div>
     <button class="btn btn-default" id="send">Button</button>
     <?php
-    new vendor\widgets\menu\Menu([
+    new learn_mvc\widgets\menu\Menu([
         'tpl' => WWW . '/menu/select.php',
         'container' => 'select',
         'class' => 'my-select',
@@ -12,14 +12,14 @@
     ]);
     ?>
     <?php
-    new vendor\widgets\menu\Menu([
-        'tpl' => WWW . '/menu/my_menu.php',
-        'container' => 'ul',
-        'class' => 'my_menu',
-        'table' => 'categories',
-        'cache' => 60,
-         'cacheKey' => 'menu_ul'
-    ]);
+//    new learn_mvc\widgets\menu\Menu([
+//        'tpl' => WWW . '/menu/my_menu.php',
+//        'container' => 'ul',
+//        'class' => 'my_menu',
+//        'table' => 'categories',
+//        'cache' => 60,
+//         'cacheKey' => 'menu_ul'
+//    ]);
     ?>
     <div id="div1"></div>
     <br><br>

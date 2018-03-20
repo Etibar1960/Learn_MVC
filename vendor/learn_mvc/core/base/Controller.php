@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\core\base;
+namespace learn_mvc\core\base;
 
 abstract class Controller {
 

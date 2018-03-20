@@ -1,9 +1,9 @@
 <?php
 
-namespace vendor\core;
+namespace learn_mvc\core;
 
-use vendor\core\Registry;
-use vendor\core\ErrorHandler;
+use learn_mvc\core\Registry;
+use learn_mvc\core\ErrorHandler;
 
 class App {
 

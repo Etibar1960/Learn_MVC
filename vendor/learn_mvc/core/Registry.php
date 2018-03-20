@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\core;
+namespace learn_mvc\core;
 
 class Registry {
 

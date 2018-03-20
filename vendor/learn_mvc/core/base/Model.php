@@ -1,8 +1,8 @@
 <?php
 
-namespace vendor\core\base;
+namespace learn_mvc\core\base;
 
-use vendor\core\Db;
+use learn_mvc\core\Db;
 
 abstract class Model {
 

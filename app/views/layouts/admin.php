@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php vendor\core\base\View::getMeta(); ?>
+        <?php learn_mvc\core\base\View::getMeta(); ?>
         <link href="/learn_mvc/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/learn_mvc/css/main.css" rel="stylesheet">
 

@@ -3,7 +3,9 @@
 namespace app\controllers;
 
 use app\models\MainModel;
-use vendor\core\App;
+use learn_mvc\core\App;
+use learn_mvc\core\base\View;
+
 
 class MainController extends AppController {
 
@@ -25,7 +27,7 @@ class MainController extends AppController {
         $this->setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
 //        $this->setMeta($post->shobe, $post->vezife, $post->telefon);
 //        $meta = $this->meta;
-        \vendor\core\base\View::setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
+        View::setMeta('Əsas səhifə', 'Səhifənin açılışı', 'Açar sözləri');
         $this->set(compact('title', 'posts', 'menu', 'meta'));
 //        $this->layout = 'test';
 //        $app->test->der();
