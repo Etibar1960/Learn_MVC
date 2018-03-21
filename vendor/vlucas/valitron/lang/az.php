@@ -28,7 +28,7 @@ return array(
     'boolean'       => "boolen olmalıdır",
     'lengthBetween' => "%d - %d sinvolları arası ehtiva etməlidir",
     'creditCard'    => "kredir kart nömrəsi olmalıdır",
-    "lengthMin"     => "%d -dən çox sinvol olmalıdır",
-    "lengthMax"     => "%d -dən az sinvol olmalıdır",
+    "lengthMin"     => "%d -dan az simvol olmamalıdır",
+    "lengthMax"     => "%d -dann çox simvol olmamalıdır",
 	"instanceOf"    => "'%s' əvəzinə olmalıdır"
 );

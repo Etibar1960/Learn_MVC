@@ -2,3 +2,29 @@
 ------------------------------------------------------------
 [2018-03-21 14:37:21] Sehvin kodu: Use of undefined constant Qeydiyyat - assumed 'Qeydiyyat' (this will throw an Error in a future version of PHP) | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\UserController.php Setir:14
 ------------------------------------------------------------
+[2018-03-21 18:01:00] Sehvin kodu: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1' for key 'login' | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\libs\rb.php Setir:735
+------------------------------------------------------------
+[2018-03-21 18:01:22] Sehvin kodu: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Edik@mail.ru' for key 'email' | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\libs\rb.php Setir:735
+------------------------------------------------------------
+[2018-03-21 18:28:11] Sehvin kodu: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1' for key 'login' | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\libs\rb.php Setir:735
+------------------------------------------------------------
+[2018-03-21 18:31:20] Sehvin kodu: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1' for key 'login' | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\libs\rb.php Setir:735
+------------------------------------------------------------
+[2018-03-21 19:08:53] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:08:59] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:01] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:02] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:03] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:17] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:19] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:20] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------
+[2018-03-21 19:09:25] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
+------------------------------------------------------------

@@ -9,18 +9,21 @@ class UserController extends AppController {
 
     public function signupAction() {
         if (!empty($_POST)) {
-            $data = $_POST;
             $user = new User();
+            $data = $_POST;
             $user->load($data);
-            if ($user->validate($data)) {
-                echo 'OK';
-            } else {
-                echo 'NO';
+            if (!$user->validate($data) || !$user->checkUnique()) {
+            $user->getErrors();
+            $_SESSION['form_data'] = $data;
+            redirect();
             }
-            
-//            debug($user);
-//            debug($_POST);
-            die;
+            $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+            if ($user->save('user')) {
+               $_SESSION['success'] = "<b>Siz qeydiyyatdan keçdiniz!</b>";
+            } else {
+                $_SESSION['error'] = "<b>Səhv baş verdi. Yenidən cəhd edin!</b>";
+            }
+            redirect();
         }
         View::setMeta("Qeydiyyat");
     }
