@@ -1,6 +1,4 @@
-[2018-03-20 22:49:57] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:23
+[2018-03-21 14:37:15] Sehvin kodu: Use of undefined constant Qeydiyyat - assumed 'Qeydiyyat' (this will throw an Error in a future version of PHP) | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\UserController.php Setir:14
 ------------------------------------------------------------
-[2018-03-20 22:50:29] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:25
-------------------------------------------------------------
-[2018-03-20 22:50:32] Sehvin kodu: Class 'PHPMailer' not found | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\MainController.php Setir:25
+[2018-03-21 14:37:21] Sehvin kodu: Use of undefined constant Qeydiyyat - assumed 'Qeydiyyat' (this will throw an Error in a future version of PHP) | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\UserController.php Setir:14
 ------------------------------------------------------------

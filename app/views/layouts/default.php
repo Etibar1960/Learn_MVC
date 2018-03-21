@@ -12,12 +12,15 @@
         <div class="container">  
             <ul class="nav nav-pills">
                 <li><a href="/learn_mvc/"> Home</a></li>
-                <li><a href="page/about"> About</a></li>
+                <li><a href="/learn_mvc/page/about"> About</a></li>
                 <li><a href="/learn_mvc/admin"> Admin</a></li>
+                <li><a href="/learn_mvc/user/signup"> Signup</a></li>
+                <li><a href="/learn_mvc/user/login"> Login</a></li>
+                <li><a href="/learn_mvc/user/logout"> Logout</a></li>
             </ul>
         </div> 
 
-        <h1 style="text-align: center">Layout DEFAULT!</h1>
+        <!--<h1 style="text-align: center">Layout DEFAULT!</h1>-->
         <?= $content ?>
 
         <script src="/learn_mvc/bootstrap/js/jquery-3.2.1.min.js"></script>
