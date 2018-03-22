@@ -22,20 +22,22 @@
 
         <?php if (isset($_SESSION['error'])): ?>
             <div class="alert alert-danger">
-                <?= $_SESSION['error'];
-                unset($_SESSION['error']); ?>
-            </div>
-        <?php endif; ?>
-
-            <?php if (isset($_SESSION['success'])): ?>
-            <div class="alert alert-success">
-                <?= $_SESSION['success'];
-                unset($_SESSION['success']);
+                <?=
+                $_SESSION['error'];
+                unset($_SESSION['error']);
                 ?>
             </div>
         <?php endif; ?>
 
-<?= $content ?>
+        <?php if (isset($_SESSION['success'])): ?>
+            <div class="alert alert-success">
+                <?=
+                $_SESSION['success'];
+                unset($_SESSION['success']);
+                ?>
+            </div>
+        <?php endif; ?>
+        <?= $content ?>
 
         <script src="/learn_mvc/bootstrap/js/jquery-3.2.1.min.js"></script>
         <script src="/learn_mvc/bootstrap/js/bootstrap.min.js" ></script>

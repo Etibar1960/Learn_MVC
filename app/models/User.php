@@ -19,16 +19,16 @@ class User extends Model {
             ['email'],
             ['name']
         ],
-        'email'=> [
+        'email' => [
             ['email']
         ],
         'lengthMin' => [
             ['password', 6]
         ]
     ];
-    public function checkUnique(){
-        $user = \R::findOne('user', 'login = ? OR email = ? LIMIT 1',
-                [$this->attributes['login'], $this->attributes['email']]);
+
+    public function checkUnique() {
+        $user = \R::findOne('user', 'login = ? OR email = ? LIMIT 1', [$this->attributes['login'], $this->attributes['email']]);
         if ($user) {
             if ($user->login == $this->attributes['login']) {
                 $this->errors['unique'][] = 'Bu login artıq istifadə edilir...';
@@ -39,6 +39,23 @@ class User extends Model {
             return FALSE;
         }
         return TRUE;
+    }
+
+    public function login() {
+        $login = !empty(trim($_POST['login'])) ? trim($_POST['login']) : NULL;
+        $password = !empty(trim($_POST['password'])) ? trim($_POST['password']) : NULL;
+        if ($login && $password) {
+            $user = \R::findOne('user', 'login = ? LIMIT 1', [$login]);
+            if ($user) {
+                if (password_verify($password, $user->password)) {
+                    foreach ($user as $k => $v) {
+                        if ($k != 'password') $_SESSION['user'][$k] = $v; 
+                    }
+                return TRUE;
+                }
+            }
+        }
+        return FALSE;
     }
 
 }

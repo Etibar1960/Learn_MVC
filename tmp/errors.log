@@ -28,3 +28,5 @@
 ------------------------------------------------------------
 [2018-03-21 19:09:25] Sehvin kodu: Undefined index: prefix | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\core\base\View.php Setir:24
 ------------------------------------------------------------
+[2018-03-22 12:02:15] Sehvin kodu: syntax error, unexpected '/' | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\UserController.php Setir:47
+------------------------------------------------------------
