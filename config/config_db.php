@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'dsn' => 'mysql:host=localhost;dbname=azmetyayim_app;charset=utf8',
+    'dsn' => 'mysql:host=localhost;dbname=mvc;charset=utf8',
     'user' => 'root',
     'pass' => ''
 ];

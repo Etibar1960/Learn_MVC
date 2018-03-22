@@ -30,3 +30,5 @@
 ------------------------------------------------------------
 [2018-03-22 12:02:15] Sehvin kodu: syntax error, unexpected '/' | Fayl: C:\xampp\htdocs\Learn_MVC\app\controllers\UserController.php Setir:47
 ------------------------------------------------------------
+[2018-03-22 14:29:08] Sehvin kodu: Could not connect to database (mvlc). | Fayl: C:\xampp\htdocs\Learn_MVC\vendor\learn_mvc\libs\rb.php Setir:929
+------------------------------------------------------------
